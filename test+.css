@@ -1,0 +1,173 @@
+
+body{
+	background-image: url(silver.png) ;
+	background-size: 100%;
+	font-family: 'Cutive Mono', monospace;
+}
+.head{
+	background-image: url(gold.jpg);
+	background-size: 100%;
+	border-radius: 100px;
+
+	box-shadow: 7px 7px 7px #3D3D3C;
+}
+.button{
+	background-image: url(silver.png);
+
+	border-radius: 100px;
+	box-shadow: 7px 7px 7px #333131;
+}
+#ahtml {
+	color: #191919;
+}
+#acpp{
+	color: #191919;
+}
+#apython{
+	color: #191919;
+}
+
+
+.just{
+	border: 3px solid #7E7E7E;
+	border-radius: 10px;
+	
+}
+
+button:hover{
+	border: 2px solid #F3AF1C;
+	color: #C911B6;
+	transform: scale(1.2) translatex(4px);	
+
+}
+
+
+.txt{
+	
+	background-color: #AEAEAE;
+	border: 2px solid #7C7A7A;
+	border-radius: 8px;
+	text-shadow: 1px 1px 1px #9F9C9C;
+	font-family: 'Share Tech Mono', monospace;
+	opacity: 0.8;
+	margin: 1px;
+	padding: 3px;
+	
+
+}
+a {
+	color: #100000;
+}
+
+.abutton {
+	width: 80px;
+	height: 80px;
+	background-image: url(insta.jpg);
+	background-size: 75px 75px;
+	background-position: right:1000px; 
+	border-radius: 20px;
+}
+
+.like{
+	width: 100px;
+	height: 50px;
+	border-radius: 25px;
+	background-color: #FC2D32;
+}
+#more{
+	display: none;
+}
+#more2{
+	display: none;
+}
+.morebutton{
+	background-image: url(silver.png);
+	border-radius: 10px;
+	opacity: 0.9;
+}
+.bas{
+	background-image: url(gold.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	font-family: 'Special Elite', cursive;
+	box-shadow: 5px 5px 5px #3D3C3C;
+}
+
+.slider{
+	background-image: url(gold.jpg);
+	min-height: 550px;
+	border: solid #9C9C9C;
+	border-radius: 20px;
+	width: 85%;
+	position: relative;
+	left: 7.5%;
+}
+.slider__item-content{
+	text-align: center;
+	padding-top: 110px;
+	max-width: 665px;
+	margin: 0 auto;
+}
+.slider__title{
+	text-transform: uppercase;
+	font-size: 30px;
+	line-height: 34px;
+	color: #FFFFFF;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    margin-bottom: 22px;
+
+}
+.slider__text{
+	line-height: 22px;
+	font-size: 18px;
+	color: #242323;
+	margin-bottom: 50px;
+}
+
+.default-btn{
+	display: inline-block;
+	font-size: 14px;
+	line-height: 24px;
+	color: #C6C5C5;
+	font-weight: 500;
+	padding: 8px 24px 8px 24px;
+	border:2px solid #7A1313;
+	position: relative;
+}
+.default-btn:after{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.slider__inner{
+	position: relative;
+}
+.slick-btn{
+	position: absolute;
+	top: 50%;
+	z-index: 3;
+	width: 40px;
+	height: 40px;
+	background-color: transparent;
+	cursor: pointer;
+}
+.slick-btn:before{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #FFFFFF;
+	}
+
+
+.slick-next{
+ 	right: 10%;
+ 	
+
+}
+.slick-prev{
+	left: 10%;
+
+	
+}

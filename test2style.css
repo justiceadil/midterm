@@ -1,0 +1,27 @@
+body {
+	background-image: url(silver.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+    
+}
+
+.head{
+	background-image: url(gold.jpg);
+	border: 2px solid #130101;
+	border-radius: 10px;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	
+}
+.button{
+	background-image: url(1.jpg);
+	border-radius: 100px;
+	box-shadow: 7px 7px 7px #333131;
+}
+button: hover{
+	border: 2px solid #C911B6;
+	color: #C911B6;
+
+}
